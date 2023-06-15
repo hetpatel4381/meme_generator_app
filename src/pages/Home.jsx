@@ -11,7 +11,7 @@ const Home = () => {
     }, []);
 
   return (
-    <div>
+    <div className="row">
         {data.map((e) => (
             <MemeCard img={e.url} title={e.name}/>
         ))}
